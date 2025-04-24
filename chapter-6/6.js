@@ -1,3 +1,3 @@
-const favouriteGame=["football","cricket","volleyball"]
+const favouriteGame = ["football", "cricket", "volleyball"];
 
 console.log(favouriteGame.includes("badminton"));
