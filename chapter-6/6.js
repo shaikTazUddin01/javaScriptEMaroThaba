@@ -1,9 +1,3 @@
-const weatherT = 25;
+const favouriteGame=["football","cricket","volleyball"]
 
-if (weatherT < 0) {
-  console.log("ice");
-} else if (weatherT >= 0 && weatherT <= 20) {
-  console.log("cool cool");
-} else {
-  console.log("hot hot");
-}
+console.log(favouriteGame.includes("badminton"));

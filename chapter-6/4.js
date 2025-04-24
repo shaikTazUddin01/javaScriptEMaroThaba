@@ -1,9 +1,5 @@
-const amount = 3000;
+const citys=["Dhaka","Chittagong","sylhet"]
 
-if (amount < 1000) {
-  console.log("diposite kor");
-} else if (amount >= 1000 && amount <= 5000) {
-  console.log("bindas life");
-} else {
-  console.log("tui boro loks");
-}
+citys.push("rajshahi")
+
+console.log(citys.includes("Rajshahi"));

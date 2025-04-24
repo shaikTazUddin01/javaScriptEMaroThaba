@@ -1,9 +1,3 @@
-const rauf = 25;
+const friends=["rimon","rifat","rajib"]
 
-if (rauf < 12) {
-  console.log("free");
-} else if (rauf > 60) {
-  console.log("50% off");
-} else {
-  console.log("full pay");
-}
+console.log(friends.indexOf("rifat"));
